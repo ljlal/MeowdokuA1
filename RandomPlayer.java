@@ -4,7 +4,7 @@
  */
 import java.util.Random;
 class RandomPlayer extends Player {
-    private Random random;;
+    private Random random;
     public RandomPlayer(String name, int size, int seed) {
         super(name, size);
         random = new Random(seed);
